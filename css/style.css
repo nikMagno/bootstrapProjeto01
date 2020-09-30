@@ -1,0 +1,128 @@
+.nav-link{
+  margin: 0 15px;
+}
+
+.bg-azul{
+  background-color: #3FA3C5;
+  border: 0;
+}
+
+.bg-azul:hover{
+  background-color: #83cee7;
+}
+
+/* Section TOP */
+section.bg-top{
+  width: 100%;
+  min-height: 600px;
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+}
+
+.box-fix{
+  position: relative;
+  top: 55px;
+}
+
+.fix-zindex{
+  position: relative;
+  z-index: 2;
+}
+
+.overlay{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(30, 30, 30, 0.6);
+}
+
+
+/* SECTION CHAMADA */
+section.chamada{
+  background-color: #3FA3C5;
+  padding: 8px 0;
+  color: white;
+}
+
+section.chamada h2{
+  font-size: 29px;
+}
+
+
+/* SECTION SOBRE */
+section.sobre{
+  padding: 30px 0;
+  background-color: rgb(242, 247, 251);
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{
+  color: #888;
+  font-size: 25px;
+}
+
+.custom-title div{
+  display: block;
+  left: 0;
+  top: 0;
+  width: 6%;
+  height: 4px;
+  background-color: #3FA3C5;
+}
+
+
+/* SECTION DIFERENCIAIS */
+section.diferenciais{
+  padding: 30px 0;
+  color: #646464;
+}
+
+section.diferenciais .col-md-4{
+  padding: 0 16px;
+}
+
+section.diferenciais i{
+  font-size: 42px;
+  padding: 10px 0;
+}
+
+
+/* SECTION CONVITE */
+section.convite{
+  padding: 23px 0;
+  background-color: rgb(242, 247, 251);
+}
+
+
+/* SECTION CONTATO */
+section.contato{
+  padding: 30px 0;
+}
+
+
+/* FOOTER */
+section.sub-footer{
+  padding: 28px 0;
+  background-color: #d4edff;
+}
+
+.group-btns a{
+  font-size: 22px;
+}
+
+.sub-footer ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
